@@ -12,7 +12,4 @@ def build_standard_deck() -> list[dict]:
     return cards
 
 def shuffle_by_suit(deck: list[dict], swaps: int = 5000) -> list[dict]:
-    return[{}]
-
-
-print(len(build_standard_deck()))
+    return [{}]
