@@ -18,8 +18,6 @@ def calculate_hand_value(hand: list[dict]) -> int:
     return total
 
 hand = [{"rank":"A", "suite":"H"}, {"rank":"K", "suite":"H"}]
-print(calculate_hand_value(hand))
-
 
 
 def deal_two_each(deck: list[dict], player: dict, dealer: dict) -> None:
@@ -36,7 +34,6 @@ def deal_two_each(deck: list[dict], player: dict, dealer: dict) -> None:
     print()
     val_hand_dealer = calculate_hand_value(dealer["hand"])
     print(val_hand_dealer)
-
     
 
 def dealer_play(deck: list[dict], dealer: dict) -> bool:
